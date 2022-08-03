@@ -93,11 +93,3 @@ var Employee = /** @class */ (function (_super) {
     return Employee;
 }(Person));
 var emp = new Employee(3, 'Shawn', 'Developer');
-// Generics
-function getArray(items) {
-    return new Array().concat(items);
-}
-var numArray = getArray([1, 2, 3, 4]);
-var strArray = getArray(['brad', 'John', 'Jill']);
-strArray.push("brand"); // Throws error
-console.log(strArray);
