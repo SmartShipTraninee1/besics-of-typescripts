@@ -82,6 +82,7 @@ var Person = /** @class */ (function () {
 }());
 var brad = new Person(1, 'Brad Traversy');
 var mike = new Person(2, 'Mike Jordan');
+
 // Subclasses
 var Employee = /** @class */ (function (_super) {
     __extends(Employee, _super);
